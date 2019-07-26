@@ -204,3 +204,9 @@ a:hover, a:focus, a:active {
   color: white;
   cursor: pointer;
 }
+
+.thankyou_message{
+  color: red;
+  font-style: roboto;
+}
+
