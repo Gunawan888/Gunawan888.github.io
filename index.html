@@ -15,18 +15,14 @@
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-
-  <!-- Flickity Slider --> 
-  <link rel="stylesheet" href="css/slider.css">
-  <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
-
-    <!-- Custom fonts for this template -->
+  <!-- Custom fonts for this template -->
   <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet">
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
 
   <!-- Custom styles for this template -->
   <link href="css/loader.css" rel="stylesheet">
+  <link href="css/swiper.css" rel="stylesheet">
   <link href="css/resume.css" rel="stylesheet">
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -377,28 +373,66 @@
         <br>
         <br>
 
-
-        <!-- Flickity HTML init -->
-        <div class="carousel" data-flickity='{"wrapAround": true, "freeScroll": true, "freeScrollFriction": 0.03}'>
-            <img class="carousel-image"
-              src="img/Volunteer/ppia1.jpg" />
-            <img class="carousel-image"
-              src="img/Volunteer/ppia2.jpg" />
-            <img class="carousel-image"
-              src="img/Volunteer/ppia3.jpg" />
-            <img class="carousel-image"
-              src="img/Volunteer/ppia4.jpg" />
-            <img class="carousel-image"
-              src="img/Volunteer/diaspora1.jpg" />
-            <img class="carousel-image"
-              src="img/Volunteer/diaspora2.jpg" />
-            <img class="carousel-image"
-              src="img/Volunteer/diaspora3.jpg" />
-            <img class="carousel-image"
-              src="img/Volunteer/redteam1.jpg" />
-            <img class="carousel-image"
-              src="img/Volunteer/redteam2.jpg" />
+        <!-- Photo Gallery -->
+      <!-- Swiper -->
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+              <img src="img/Volunteer/ppia1.jpg" class="gallery">
+              <div class="details">
+                <h5> PPIA UTS Committee 2018/2019 </h5>
+              </div>
+          </div>
+          <div class="swiper-slide">
+              <img src="img/Volunteer/ppia2.jpg" class="gallery">
+              <div class="details">
+                <h5> Indonesian Traditional Dance </h5>
+              </div>
+          </div>
+          <div class="swiper-slide">
+              <img src="img/Volunteer/ppia3.jpg" class="gallery">
+              <div class="details">
+                <h5> Choir </h5>
+              </div>
+          </div>
+          <div class="swiper-slide">
+              <img src="img/Volunteer/ppia4.jpg" class="gallery">
+              <div class="details">
+                <h5> Epilogue 2k19 Committee </h5>
+              </div>
+          </div>
+          <div class="swiper-slide">
+              <img src="img/Volunteer/redteam1.jpg" class="gallery">
+              <div class="details">
+                <h5> UTS INSEARCH Red Team </h5>
+              </div>
+          </div>
+          <div class="swiper-slide">
+              <img src="img/Volunteer/redteam2.jpg" class="gallery">
+              <div class="details">
+                <h5> UTS INSEARCH Red Team </h5>
+              </div>
+          </div>
+          <div class="swiper-slide">
+              <img src="img/Volunteer/diaspora1.jpg" class="gallery">
+              <div class="details">
+                <h5> Indonesian Diaspora </h5>
+              </div>
+          </div>
+          <div class="swiper-slide">
+              <img src="img/Volunteer/diaspora2.jpg" class="gallery">
+              <div class="details">
+                <h5> Saman Dance </h5>
+              </div>
+          </div>
+          <div class="swiper-slide">
+              <img src="img/Volunteer/diaspora3.jpg" class="gallery">
+              <div class="details">
+                <h5> Indonesian Diaspora Night Talk Show </h5>
+              </div>
+          </div>
         </div>
+      </div>
 
 
 
@@ -444,6 +478,9 @@
   <!-- Custom scripts for this template -->
   <script src="js/resume.min.js"></script>
 
+  <!-- Gallery Slideshow -->
+  <script src="js/swiper.min.js"></script>
+  <script src="js/galleryswiper.js"></script>
 
     <!-- Script for preloader-->
   <script>
