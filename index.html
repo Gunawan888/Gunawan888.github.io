@@ -21,8 +21,7 @@
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
 
   <!-- Custom styles for this template -->
-  <link href="css/loader.css" rel="stylesheet">
-  <link href="css/swiper.css" rel="stylesheet">
+  <link href="css/swiper.min.css" rel="stylesheet">
   <link href="css/resume.css" rel="stylesheet">
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -74,19 +73,6 @@
       </ul>
     </div>
   </nav>
-
-  <div class="bookshelf_wrapper">
-    <ul class="books_list" style="list-style-type: disc;">
-      <li class="book_item first"></li>
-      <li class="book_item second"></li>
-      <li class="book_item third"></li>
-      <li class="book_item fourth"></li>
-      <li class="book_item fifth"></li>
-      <li class="book_item sixth"></li>
-    </ul>
-    <div class="shelf"></div>
-  </div>
-
 
   <div class="container-fluid p-0">
 
@@ -478,19 +464,9 @@
   <!-- Custom scripts for this template -->
   <script src="js/resume.min.js"></script>
 
+
   <!-- Gallery Slideshow -->
   <script src="js/swiper.min.js"></script>
   <script src="js/galleryswiper.js"></script>
-
-    <!-- Script for preloader-->
-  <script>
-    // Pre-loader timeout
-    setTimeout(function(){
-      $(".container-fluid").css("display", "none");
-      $(".bookshelf_wrapper").fadeOut(2500, function(){
-        $(".container-fluid").show();
-      });
-    });
-  </script>
 </body>
 </html>
